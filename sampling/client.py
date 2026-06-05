@@ -11,7 +11,7 @@ from mcp.types import (
 )
 
 anthropic_client = AsyncAnthropic()
-model = "claude-sonnet-4-0"
+model = "claude-haiku-4-5"
 
 server_params = StdioServerParameters(
     command="uv",
