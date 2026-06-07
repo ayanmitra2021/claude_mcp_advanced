@@ -12,8 +12,19 @@ uv sync
 
 ## Running the Project
 
-Run the MCP client:
+Run the MCP server:
+```bash
+uv run server.py
+```
+
+## Run the MCP client:
 
 ```bash
 uv run client.py
+```
+
+## Run the MCP inspector
+
+```bash
+npx @modelcontextprotocol/inspector python server.py
 ```
